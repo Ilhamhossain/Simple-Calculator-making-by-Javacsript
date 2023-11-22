@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 76vw;
+    height: 75vh;
+    /* background-color: rebeccapurple; */
+    margin-left:14%;
+    margin-top: 10%;
+    position: relative;
+}
+
+
+.resultBar{
+    width: 100%;
+    height: 15%;
+    background-color: red;
+}
+.display{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 2.5em;
+    border: none;
+    color: rgb(0,0,0,0.555)
+}
+.display:focus{
+    outline: none;
+    border: 1px solid rgb(196, 189, 189);
+    color: rgba(0, 0, 0, 0.555);
+}
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+button{
+    width: 18vw;
+    height:85%;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(6%) translateX(5%);
+    cursor: pointer;
+    transition: 400ms all ease-in;
+    font-size: 1.2em;
+    font-weight: lighter;
+    background-color: rgba(216, 213, 208, 0.062);
+    box-shadow: 3px 3px 40px rgba(153, 150, 150, 0.856);
+}
+.sign{
+    color: rgb(13, 13, 145);
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+   background-color: rgb(207, 203, 203);
+}
+.zero{
+    width: 49%;
+    border-radius: 40px;
+    position: relative;
+    right: 2%;
+}
+.con-row{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.delete{
+    color: rgb(13, 13, 145);
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.equal{
+    color: rgb(13, 13, 145);
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
